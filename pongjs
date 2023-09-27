@@ -1,0 +1,40 @@
+//Posição e tamanho da bolinha 
+let xBolinha = 300 ;
+let Ybolinha = 200 ;
+let diametro = 25 ;
+let raio = 12.5;
+
+//velocidade da bolinha 
+let velocidadedabolinhaX = 6;
+let velocidadedabolinhaY =6;
+
+//Raquete
+let xraquete = 5;
+let yraquete = 150;
+let raquetecomprimento = 10;
+let raquetealtura = 90;
+
+function setup(){}
+  createCanvas(600, 400);
+}
+  
+functiondraw(){  
+   background(0);
+  mostrabolinha();
+  movimentobolinha();
+  colideborda();
+  mostraraquete();
+  movimentaraquete();
+  colideraquete(); 
+}
+//
+funcion mostrabolinha(){ 
+  circle(xblinha, ybolinha, diametro0; 
+}
+function movimentobolinha (){
+  xbolinha += velocidadedablinhax;
+  ybolinha += velocidadedabo
+}
+  function colideborda() {  
+  if (xbolinha < 0) {  
+ 
